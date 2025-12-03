@@ -12,7 +12,15 @@ public class Colas {
     System.out.println("p =" + P1 + "Lq =" + Lq1 + "Wq = " + Wq1 + "w = " + W1);
 
     double lambda2 = 10, mu2 = 15;
-    System.out.println("\n");
+
+    System.out.println("\n=== Funcion de Colas 2 ====");
+    if (lambda2 >=mu2) {
+
+        System.out.println("El sistema instable (lambda >= mu)");
+        
+    } else {
+        double P2 = lambda2 / mu2;
+    }
 
 
         

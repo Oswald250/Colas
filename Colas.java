@@ -8,10 +8,11 @@ public class Colas {
     double Wq1 = Lq1 / lambda1;
     double W1 = 1 / (mu1 - lambda1);
 
-    System.out.println("");
+    System.out.println("Funcion de Colas 1");
     System.out.println("p =" + P1 + "Lq =" + Lq1 + "Wq = " + Wq1 + "w = " + W1);
 
     double lambda2 = 10, mu2 = 15;
+    System.out.println("\n");
 
 
         

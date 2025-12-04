@@ -85,16 +85,16 @@ double M5 = sc.nextDouble();
 for (int s = 1; s <= 3; s++){
 
     System.out.println("\n Bocinas " +  s);
-    double rho = 15 / (s * M5);
+    double rho = L5 / (s * M5);
 
 
     if (rho >= 1) {
         System.out.println("Inestable.");    
     }else{
 
-   double a = 15 / M5;
+   double a = L5 / M5;
    double Lq = (Math.pow(a, s) * rho) / (s * Math.pow(1 - rho, 2));
-   double W = (Lq / 15) +  1 / M5;
+   double W = (Lq / L5) +  1 / M5;
    System.out.println("Lq = " + Lq + " W = " + W);
 
     }
